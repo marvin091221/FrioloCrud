@@ -1,0 +1,144 @@
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\ApplicationInsights.config
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\csc.exe
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\System.Collections.Immutable.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\System.Reflection.Metadata.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\vbc.exe
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\VBCSCompiler.exe
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\roslyn\VBCSCompiler.exe.config
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\WebApplCrud.dll.config
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\WebApplCrud.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\WebApplCrud.pdb
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\EntityFramework.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Agent.Intercept.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.DependencyCollector.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Web.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.WindowsServer.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.ApplicationInsights.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.Web.Infrastructure.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Helpers.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Mvc.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Razor.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Deployment.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Razor.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\EntityFramework.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.DependencyCollector.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Web.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.AI.WindowsServer.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.ApplicationInsights.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Razor.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Deployment.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Razor.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Helpers.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\bin\System.Web.Mvc.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\obj\Debug\FrioloCrud.csprojResolveAssemblyReference.cache
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\obj\Debug\WebApplCrud.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\WebApplCrud\WebApplCrud\obj\Debug\WebApplCrud.pdb
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\ApplicationInsights.config
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\csc.exe
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\vbc.exe
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\VBCSCompiler.exe
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\WebApplCrud.dll.config
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\WebApplCrud.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\WebApplCrud.pdb
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\EntityFramework.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Web.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Helpers.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Mvc.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Razor.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Razor.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\EntityFramework.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Web.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Razor.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Razor.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Helpers.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Mvc.xml
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\obj\Debug\FrioloCrud.csprojResolveAssemblyReference.cache
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\obj\Debug\WebApplCrud.dll
+C:\Users\Marve Friolo\Documents\GitHub\FrioloCrud\WebApplCrud\WebApplCrud\obj\Debug\WebApplCrud.pdb
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\ApplicationInsights.config
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\csc.exe
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\System.Collections.Immutable.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\System.Reflection.Metadata.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\vbc.exe
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\VBCSCompiler.exe
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\roslyn\VBCSCompiler.exe.config
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\WebApplCrud.dll.config
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\WebApplCrud.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\WebApplCrud.pdb
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\EntityFramework.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Agent.Intercept.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.DependencyCollector.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Web.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.WindowsServer.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.ApplicationInsights.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.Web.Infrastructure.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Helpers.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Mvc.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Razor.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Deployment.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Razor.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\EntityFramework.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.DependencyCollector.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.Web.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.AI.WindowsServer.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.ApplicationInsights.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Razor.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Deployment.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Webpages.Razor.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Helpers.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\bin\System.Web.Mvc.xml
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\obj\Debug\FrioloCrud.csprojResolveAssemblyReference.cache
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\obj\Debug\WebApplCrud.dll
+D:\UCLM 3rd yr. 2024\IMDBSYS32\FrioloCrud\WebApplCrud\WebApplCrud\obj\Debug\WebApplCrud.pdb

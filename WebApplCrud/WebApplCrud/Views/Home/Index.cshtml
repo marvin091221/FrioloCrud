@@ -1,0 +1,91 @@
+﻿@model IEnumerable<user>
+   
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="text-center">List of Users</h2>
+<hr />
+@if (!String.IsNullOrEmpty(TempData["msg"] as String))
+{
+    <div class="container text-center">
+        <div class="alert alert-success">
+            @TempData["msg"]
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped" style="text-align:center">
+            <tr>
+                <th class="text-center">ID</th>
+                <th class="text-center">Username</th>
+                <th class="text-center">Action</th>
+            </tr>
+
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <th class="text-center">@u.id</th>
+                    <th class="text-center">@u.username</th>
+                    <th class="text-center">
+                        <a href="~/Home/Update/@u.id">Update</a> |
+                        <a href="~/Home/Delete/@u.id">Delete</a>
+                    </th>
+                </tr>
+            }
+        </table>
+        <div class="container text-center">
+            <div class="btn btn-success">
+                @Html.ActionLink("Create New", "Create")
+            </div>
+        </div>
+    </div>
+</div>
+
+@*@model List<user>
+
+@{ViewBag.Title = "Index";}
+
+<div class="container">
+    <h2>User List</h2>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["msg"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <td>@item.username</td>
+                    <td>@item.password</td>
+                    <td>
+                        @Html.ActionLink("Update", "Update", new { id = item.id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @Html.ActionLink("Create New", "Create")
+</div>*@
+
+
