@@ -403,9 +403,9 @@ var Microsoft;
                     }
                 }
             };
-            Util.getIEVersion = function (userAgentStr) {
-                if (userAgentStr === void 0) { userAgentStr = null; }
-                var myNav = userAgentStr ? userAgentStr.toLowerCase() : navigator.userAgent.toLowerCase();
+            Util.getIEVersion = function (UserAgentStr) {
+                if (UserAgentStr === void 0) { UserAgentStr = null; }
+                var myNav = UserAgentStr ? UserAgentStr.toLowerCase() : navigator.UserAgent.toLowerCase();
                 return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : null;
             };
             Util.msToTimeSpan = function (totalms) {
@@ -1134,14 +1134,14 @@ var AI;
             this.sessionId = "ai.session.id";
             this.sessionIsFirst = "ai.session.isFirst";
             this.sessionIsNew = "ai.session.isNew";
-            this.userAccountAcquisitionDate = "ai.user.accountAcquisitionDate";
-            this.userAccountId = "ai.user.accountId";
-            this.userAgent = "ai.user.userAgent";
-            this.userId = "ai.user.id";
-            this.userStoreRegion = "ai.user.storeRegion";
-            this.userAuthUserId = "ai.user.authUserId";
-            this.userAnonymousUserAcquisitionDate = "ai.user.anonUserAcquisitionDate";
-            this.userAuthenticatedUserAcquisitionDate = "ai.user.authUserAcquisitionDate";
+            this.UserAccountAcquisitionDate = "ai.User.accountAcquisitionDate";
+            this.UserAccountId = "ai.User.accountId";
+            this.UserAgent = "ai.User.UserAgent";
+            this.UserId = "ai.User.id";
+            this.UserStoreRegion = "ai.User.storeRegion";
+            this.UserAuthUserId = "ai.User.authUserId";
+            this.UserAnonymousUserAcquisitionDate = "ai.User.anonUserAcquisitionDate";
+            this.UserAuthenticatedUserAcquisitionDate = "ai.User.authUserAcquisitionDate";
             this.sampleRate = "ai.sample.sampleRate";
             this.cloudName = "ai.cloud.name";
             this.cloudRoleVer = "ai.cloud.roleVer";
@@ -1271,8 +1271,8 @@ var Microsoft;
             SamplingScoreGenerator.prototype.getSamplingScore = function (envelope) {
                 var tagKeys = new AI.ContextTagKeys();
                 var score = 0;
-                if (envelope.tags[tagKeys.userId]) {
-                    score = this.hashCodeGeneragor.getHashCodeScore(envelope.tags[tagKeys.userId]);
+                if (envelope.tags[tagKeys.UserId]) {
+                    score = this.hashCodeGeneragor.getHashCodeScore(envelope.tags[tagKeys.UserId]);
                 }
                 else if (envelope.tags[tagKeys.operationId]) {
                     score = this.hashCodeGeneragor.getHashCodeScore(envelope.tags[tagKeys.operationId]);
@@ -1459,7 +1459,7 @@ var Microsoft;
             "use strict";
             var User = (function () {
                 function User(config) {
-                    var cookie = ApplicationInsights.Util.getCookie(User.userCookieName);
+                    var cookie = ApplicationInsights.Util.getCookie(User.UserCookieName);
                     if (cookie) {
                         var params = cookie.split(User.cookieSeparator);
                         if (params.length > 0) {
@@ -1475,7 +1475,7 @@ var Microsoft;
                         date.setTime(date.getTime() + 31536000000);
                         var newCookie = [this.id, acqStr];
                         var cookieDomain = this.config.cookieDomain ? this.config.cookieDomain() : undefined;
-                        ApplicationInsights.Util.setCookie(User.userCookieName, newCookie.join(User.cookieSeparator) + ';expires=' + date.toUTCString(), cookieDomain);
+                        ApplicationInsights.Util.setCookie(User.UserCookieName, newCookie.join(User.cookieSeparator) + ';expires=' + date.toUTCString(), cookieDomain);
                         ApplicationInsights.Util.removeStorage('ai_session');
                     }
                     this.accountId = config.accountId ? config.accountId() : undefined;
@@ -1494,7 +1494,7 @@ var Microsoft;
                 User.prototype.setAuthenticatedUserContext = function (authenticatedUserId, accountId) {
                     var isInvalidInput = !this.validateUserInput(authenticatedUserId) || (accountId && !this.validateUserInput(accountId));
                     if (isInvalidInput) {
-                        ApplicationInsights._InternalLogging.throwInternalUserActionable(ApplicationInsights.LoggingSeverity.WARNING, new ApplicationInsights._InternalLogMessage(ApplicationInsights._InternalMessageId.USRACT_SetAuthContextFailedAccountName, "Setting auth user context failed. " +
+                        ApplicationInsights._InternalLogging.throwInternalUserActionable(ApplicationInsights.LoggingSeverity.WARNING, new ApplicationInsights._InternalLogMessage(ApplicationInsights._InternalMessageId.USRACT_SetAuthContextFailedAccountName, "Setting auth User context failed. " +
                             "User auth/account id should be of type string, and not contain commas, semi-colons, equal signs, spaces, or vertical-bars."));
                         return;
                     }
@@ -1520,7 +1520,7 @@ var Microsoft;
                     return true;
                 };
                 User.cookieSeparator = '|';
-                User.userCookieName = 'ai_user';
+                User.UserCookieName = 'ai_User';
                 User.authUserCookieName = 'ai_authUser';
                 return User;
             })();
@@ -2513,7 +2513,7 @@ var Microsoft;
                     this.device = new ApplicationInsights.Context.Device();
                     this.internal = new ApplicationInsights.Context.Internal();
                     this.location = new ApplicationInsights.Context.Location();
-                    this.user = new ApplicationInsights.Context.User(config);
+                    this.User = new ApplicationInsights.Context.User(config);
                     this.operation = new ApplicationInsights.Context.Operation();
                     this.session = new ApplicationInsights.Context.Session();
                     this.sample = new ApplicationInsights.Context.Sample(config.sampleRate());
@@ -2554,7 +2554,7 @@ var Microsoft;
                 this._applyInternalContext(envelope, this.internal);
                 this._applyLocationContext(envelope, this.location);
                 this._applySampleContext(envelope, this.sample);
-                this._applyUserContext(envelope, this.user);
+                this._applyUserContext(envelope, this.User);
                 this._applyOperationContext(envelope, this.operation);
                 envelope.iKey = this._config.instrumentationKey();
                 var doNotSendItem = false;
@@ -2692,23 +2692,23 @@ var Microsoft;
                     }
                 }
             };
-            TelemetryContext.prototype._applyUserContext = function (envelope, userContext) {
-                if (userContext) {
+            TelemetryContext.prototype._applyUserContext = function (envelope, UserContext) {
+                if (UserContext) {
                     var tagKeys = new AI.ContextTagKeys();
-                    if (typeof userContext.accountId === "string") {
-                        envelope.tags[tagKeys.userAccountId] = userContext.accountId;
+                    if (typeof UserContext.accountId === "string") {
+                        envelope.tags[tagKeys.UserAccountId] = UserContext.accountId;
                     }
-                    if (typeof userContext.agent === "string") {
-                        envelope.tags[tagKeys.userAgent] = userContext.agent;
+                    if (typeof UserContext.agent === "string") {
+                        envelope.tags[tagKeys.UserAgent] = UserContext.agent;
                     }
-                    if (typeof userContext.id === "string") {
-                        envelope.tags[tagKeys.userId] = userContext.id;
+                    if (typeof UserContext.id === "string") {
+                        envelope.tags[tagKeys.UserId] = UserContext.id;
                     }
-                    if (typeof userContext.authenticatedId === "string") {
-                        envelope.tags[tagKeys.userAuthUserId] = userContext.authenticatedId;
+                    if (typeof UserContext.authenticatedId === "string") {
+                        envelope.tags[tagKeys.UserAuthUserId] = UserContext.authenticatedId;
                     }
-                    if (typeof userContext.storeRegion === "string") {
-                        envelope.tags[tagKeys.userStoreRegion] = userContext.storeRegion;
+                    if (typeof UserContext.storeRegion === "string") {
+                        envelope.tags[tagKeys.UserStoreRegion] = UserContext.storeRegion;
                     }
                 }
             };
@@ -3240,18 +3240,18 @@ var Microsoft;
             };
             AppInsights.prototype.setAuthenticatedUserContext = function (authenticatedUserId, accountId) {
                 try {
-                    this.context.user.setAuthenticatedUserContext(authenticatedUserId, accountId);
+                    this.context.User.setAuthenticatedUserContext(authenticatedUserId, accountId);
                 }
                 catch (e) {
-                    ApplicationInsights._InternalLogging.throwInternalUserActionable(ApplicationInsights.LoggingSeverity.WARNING, new ApplicationInsights._InternalLogMessage(ApplicationInsights._InternalMessageId.USRACT_SetAuthContextFailed, "Setting auth user context failed. " + ApplicationInsights.Util.getExceptionName(e), { exception: ApplicationInsights.Util.dump(e) }));
+                    ApplicationInsights._InternalLogging.throwInternalUserActionable(ApplicationInsights.LoggingSeverity.WARNING, new ApplicationInsights._InternalLogMessage(ApplicationInsights._InternalMessageId.USRACT_SetAuthContextFailed, "Setting auth User context failed. " + ApplicationInsights.Util.getExceptionName(e), { exception: ApplicationInsights.Util.dump(e) }));
                 }
             };
             AppInsights.prototype.clearAuthenticatedUserContext = function () {
                 try {
-                    this.context.user.clearAuthenticatedUserContext();
+                    this.context.User.clearAuthenticatedUserContext();
                 }
                 catch (e) {
-                    ApplicationInsights._InternalLogging.throwInternalUserActionable(ApplicationInsights.LoggingSeverity.WARNING, new ApplicationInsights._InternalLogMessage(ApplicationInsights._InternalMessageId.USRACT_SetAuthContextFailed, "Clearing auth user context failed. " + ApplicationInsights.Util.getExceptionName(e), { exception: ApplicationInsights.Util.dump(e) }));
+                    ApplicationInsights._InternalLogging.throwInternalUserActionable(ApplicationInsights.LoggingSeverity.WARNING, new ApplicationInsights._InternalLogMessage(ApplicationInsights._InternalMessageId.USRACT_SetAuthContextFailed, "Clearing auth User context failed. " + ApplicationInsights.Util.getExceptionName(e), { exception: ApplicationInsights.Util.dump(e) }));
                 }
             };
             AppInsights.prototype.SendCORSException = function (properties) {
@@ -3443,7 +3443,7 @@ var Microsoft;
                 }, this.config.diagnosticLogInterval);
             };
             Initialization.prototype.addHousekeepingBeforeUnload = function (appInsightsInstance) {
-                // Add callback to push events when the user navigates away
+                // Add callback to push events when the User navigates away
                 if (!appInsightsInstance.config.disableFlushOnBeforeUnload && ('onbeforeunload' in window)) {
                     var performHousekeeping = function () {
                         appInsightsInstance.context._sender.triggerSend();

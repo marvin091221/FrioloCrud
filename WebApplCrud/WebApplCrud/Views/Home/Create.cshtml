@@ -1,4 +1,4 @@
-﻿@model user
+﻿@model User
 @{
     ViewBag.Title = "Create";
 }
@@ -10,7 +10,7 @@
         @using (Html.BeginForm())
         {
             <div class="container text-center">
-                <label>Username</label>
+                <label>username</label>
                 <div>
                     @Html.TextBoxFor(m => m.username, new { @class = "form-control", @style = "margin: auto; display: block;" })
                 </div>

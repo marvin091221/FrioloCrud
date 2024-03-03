@@ -1,4 +1,4 @@
-﻿@model user
+﻿@model User
 @{
     ViewBag.Title = "Update";
 }
@@ -13,7 +13,7 @@
             <div class="col-md-12">
                 @Html.HiddenFor(m => m.id)
                 <div class="container text-center">
-                    <label class="text-center">Username</label>
+                    <label class="text-center">username</label>
                     @*<input type="text" name="username" class="form-control" value="" />*@
                     @Html.TextBoxFor(m => m.username, new { @class = "form-control", @style = "margin: auto; display: block;" })
                     <br />

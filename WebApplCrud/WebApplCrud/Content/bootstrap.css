@@ -2010,11 +2010,11 @@ textarea.input-lg {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
+  -webkit-User-select: none;
+     -moz-User-select: none;
+      -ms-User-select: none;
+       -o-User-select: none;
+          User-select: none;
 }
 
 .btn:focus {
@@ -2463,7 +2463,7 @@ input[type="button"].btn-block {
   content: "\e007";
 }
 
-.glyphicon-user:before {
+.glyphicon-User:before {
   content: "\e008";
 }
 

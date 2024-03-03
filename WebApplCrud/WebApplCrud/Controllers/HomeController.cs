@@ -11,13 +11,14 @@ namespace WebApplCrud.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            var list = new List<user>();
+            var list = new List<User>();
             using (var db = new DBsys32Entities())
             {
-                list = db.user.ToList();
+                list = db.User.ToList();
             }
 
             return View(list);
+            //return View(_UserRepo.GetAll());
         }
 
         public ActionResult Create()
@@ -26,59 +27,59 @@ namespace WebApplCrud.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(user u)
+        public ActionResult Create(User u)
         {
             using (var db = new DBsys32Entities())
             {
-                var newUser = new user();
+                var newUser = new User();
                 newUser.username = u.username;
                 newUser.password = u.password;
 
-                db.user.Add(newUser);
+                db.User.Add(newUser);
                 db.SaveChanges();
 
-                TempData["msg"] = $"Username {newUser.username} Added successfully!";
+                TempData["msg"] = $"username {newUser.username} Added successfully!";
             }
             return RedirectToAction("Index");
         }
 
         public ActionResult Update(int id)
         {
-            var u = new user();
+            var u = new User();
             using (var db = new DBsys32Entities())
             {
-                u = db.user.Find(id);
+                u = db.User.Find(id);
             }
             return View(u);
         }
 
         [HttpPost]
-        public ActionResult Update(user u)
+        public ActionResult Update(User u)
         {
             using (var db = new DBsys32Entities())
             {
-                var newUser = db.user.Find(u.id);
+                var newUser = db.User.Find(u.id);
                 newUser.username = u.username;
                 newUser.password = u.password;
 
-                //db.user.Add(newUser);
+                //db.User.Add(newUser);
                 db.SaveChanges();
 
-                TempData["msg"] = $"Username {newUser.username} has been updated successfully!";
+                TempData["msg"] = $"username {newUser.username} has been updated successfully!";
             }
             return RedirectToAction("Index");
         }
 
         public ActionResult Delete(int id)
         {
-            var u = new user();
+            var u = new User();
             using (var db = new DBsys32Entities())
             {
-                u = db.user.Find(id);
-                db.user.Remove(u);
+                u = db.User.Find(id);
+                db.User.Remove(u);
                 db.SaveChanges();
 
-                TempData["msg"] = $"Username {u.username} has been deleted successfully!";
+                TempData["msg"] = $"username {u.username} has been deleted successfully!";
             }
             return RedirectToAction("Index");
         }

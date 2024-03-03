@@ -25,6 +25,6 @@ namespace WebApplCrud
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<user> user { get; set; }
+        public DbSet<User> User { get; set; }
     }
 }
